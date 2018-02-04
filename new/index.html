@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+    <title>My new  hits</title>
+     <link rel="stylesheet" type="text/css" href="css/style.css"> 
+</head>
+<body>
+    <header id="main-header" >
+        <div class="container">
+        <h1>My new hits </h1>
+        </div>
+    </header>
+
+    <nav id="navbar" >
+            <div class="container">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">contacts</a></li> 
+            </ul>
+            </div>
+    </nav>
+
+<section id="showcase">
+ <div class="container">
+     <h1>Download your hits from your favourite artiste</h1>
+     
+</div>    
+</section>
+<div class="container">
+<section id="main">
+    <h1>Welcome</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est dolore illum obcaecati eaque quaerat eos perferendis nemo sed recusandae omnis eligendi reiciendis at, officia vel. Nostrum quas maiores officia.</p>
+</section>
+<aside id="sidebar">
+     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est dolore illum obcaecati eaque quaerat eos perferendis nemo sed recusandae omnis eligendi reiciendis at, officia vel. Nostrum quas maiores officia.</p>  
+</aside>
+</div>
+
+<div>
+    Enter your name:
+
+    <input id="name" name="name" type="text" size="30"onblur="isTheFieldempty(this,document.getElementbyId("name-help"))"/>
+    <span id="name_help"></span>
+
+</div>
+<div>
+    Enter your telephone:
+
+    <input id="telephone" telephone="telephone" type="text" size="30"onblur="isTheFieldempty(this,document.getElementbyId("telephone-help"))"/>
+    <span id="telephone_help"></span>
+</div>
+
+
+
+
+
+
+<footer id="main-footer">
+    <p>Copyright &copy; 2017 My new hits</p>
+</footer>
+
+
+<script src="js/script">      
+
+function editNodeText(regex, input, helpId, helpMessage){
+    if(!regex.test(input)){
+        if(helpID != null)
+        while(helpId.childNodes[0]){
+    helpId.removechild(helpId.childNodes[0]);
+        }
+    helpId.appendchild(document.creatTextNode(helpmessage));
+} else {
+    if(helpId !=null){
+        while(helpId.childNodes[0]){
+            helpId.removechild(helpId.childNodes[0]);
+        }
+    }
+}
+    }
+
+   
+function isTheFieldEmpty(inputField, helpId){     
+// return editNodeText(/^[A-Za-z\.\''\-]{1,15}\s?[A-Za-z\.\''-]{1'15}\s[A-Za-z\.\'\-]{1,15}/, inputField.value, helpId, "please enter a valid name");
+}
+</script>
+</body>
+</html>

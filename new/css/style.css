@@ -1,0 +1,72 @@
+body{
+    background-color:gold;
+    color:none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16;
+    line-height:1.6em;
+    margin:0; 
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+#main-header{
+    background-color:lightgreen;
+    color:black;  
+}
+
+#navbar li{
+    display:inline;
+}
+
+#navbar a{
+    color:rgb(202, 68, 68);
+    text-decoration:none;
+    font-size:18px;
+    padding-right:15px;   
+}
+
+#showcase{
+    background-image:url("../img/ant.jpg");
+    height:200px;
+    margin-bottom:20px;
+    text-align: centre;  
+}
+
+#showcase h1{
+    color:green;
+    font-size:28px;
+    line-height:1.6em;
+    padding-top:30;  
+}
+
+#main{
+    float:left;
+    width:50%;
+    padding:0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float:right ;
+    width:25%;
+    background:pink;
+    padding:0 30px;
+    box-sizing: border-box;
+}
+
+#main-footer{
+    background: #333;
+    color:#fff;
+    text-align: centre;
+    padding:20px;
+    margin-top:35px; 
+}
+@media(max-width:500px){
+    #main{
+        width:100%;
+        float:none;
+    }
+}

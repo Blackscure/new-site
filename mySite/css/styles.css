@@ -1,0 +1,26 @@
+body {
+    background: greenyellow
+}
+
+h1 {
+    color: blue;
+}
+h4 {
+    color: green;
+}
+p {
+    font-size: 20px;
+    
+}
+.header-section {
+    color: red;
+}
+.header-section ul li a{
+    text-decoration: none;
+}
+.greytext {
+    color:grey;
+}
+#red {
+    color:black;
+}
